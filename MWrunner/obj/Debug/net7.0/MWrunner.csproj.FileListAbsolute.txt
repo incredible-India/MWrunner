@@ -1,0 +1,15 @@
+H:\MWrunner\MWrunner\bin\Debug\net7.0\MWrunner.exe
+H:\MWrunner\MWrunner\bin\Debug\net7.0\MWrunner.deps.json
+H:\MWrunner\MWrunner\bin\Debug\net7.0\MWrunner.runtimeconfig.json
+H:\MWrunner\MWrunner\bin\Debug\net7.0\MWrunner.dll
+H:\MWrunner\MWrunner\bin\Debug\net7.0\MWrunner.pdb
+H:\MWrunner\MWrunner\obj\Debug\net7.0\MWrunner.csproj.AssemblyReference.cache
+H:\MWrunner\MWrunner\obj\Debug\net7.0\MWrunner.GeneratedMSBuildEditorConfig.editorconfig
+H:\MWrunner\MWrunner\obj\Debug\net7.0\MWrunner.AssemblyInfoInputs.cache
+H:\MWrunner\MWrunner\obj\Debug\net7.0\MWrunner.AssemblyInfo.cs
+H:\MWrunner\MWrunner\obj\Debug\net7.0\MWrunner.csproj.CoreCompileInputs.cache
+H:\MWrunner\MWrunner\obj\Debug\net7.0\MWrunner.dll
+H:\MWrunner\MWrunner\obj\Debug\net7.0\refint\MWrunner.dll
+H:\MWrunner\MWrunner\obj\Debug\net7.0\MWrunner.pdb
+H:\MWrunner\MWrunner\obj\Debug\net7.0\MWrunner.genruntimeconfig.cache
+H:\MWrunner\MWrunner\obj\Debug\net7.0\ref\MWrunner.dll
