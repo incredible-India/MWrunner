@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MWrunner.Implemantation
 {
-    internal class MiddlewareService : IMiddlewareService
+    public class MiddlewareService : IMiddlewareService
     {
         public bool AllFileFound()
         {
@@ -20,13 +20,26 @@ namespace MWrunner.Implemantation
             Info info = new Info();
             Console.WriteLine( "Enter Postgres Password..\t");
             info.PostgresPassword = Console.ReadLine();
-
             return info;
         }
 
-        public bool LocationDetection()
+        public string LocationDetection()
         {
-            throw new NotImplementedException();
+           string Cwd  = Directory.GetCurrentDirectory();
+            string MiddlewareProjectDirectory = "incadea.API Middleware";
+            string fullpath = Path.Combine(Cwd, MiddlewareProjectDirectory);
+            Console.WriteLine("Checking For Middleware Project\n");
+            if(Directory.Exists(fullpath))
+            {
+                Console.WriteLine("Middleware Project Found Successfully\n");
+                return fullpath;
+            }
+            else
+            {
+                Console.WriteLine("Middleware Project Not Found. :(\n");
+                return null;
+            }
+            
         }
 
         public bool ModificationAdmin()

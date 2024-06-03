@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MWrunner.model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -9,9 +10,9 @@ namespace MWrunner.Services
 {
     public interface IMiddlewareService
     {
-        public void AskingCredentials();
+        public Info AskingCredentials();
 
-        public bool LocationDetection();
+        public string LocationDetection();
 
         public bool AllFileFound();
 
